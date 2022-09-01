@@ -1,0 +1,16 @@
+#img-bg {
+    background-image: url("https://khoinghiep.thuvienphapluat.vn/uploads/NewsThumbnail/2018/12/20/digital-code-number-abstract-technology-background_34663-74.jpg");
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.mr-4 {
+    margin-right: 30px;
+}
+
+.color {
+    background-color: rgb(64, 46, 165);
+    
+}
