@@ -1,5 +1,5 @@
 #img-bg {
-    background-image: url("https://khoinghiep.thuvienphapluat.vn/uploads/NewsThumbnail/2018/12/20/digital-code-number-abstract-technology-background_34663-74.jpg");
+    background-image: url("https://img.freepik.com/vetores-premium/abstrato-base-digital-com-textura-de-placa-de-circuito-de-tecnologia_41981-1584.jpg?w=2000");
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,6 +11,11 @@
 }
 
 .color {
-    background-color: rgb(64, 46, 165);
+    background-color: #345574;
     
+}
+
+
+.color-2 {
+    background-color: #5b6c7e;
 }
