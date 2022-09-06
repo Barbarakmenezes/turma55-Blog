@@ -1,5 +1,5 @@
 #img-bg {
-    background-image: url("https://img.freepik.com/vetores-premium/abstrato-base-digital-com-textura-de-placa-de-circuito-de-tecnologia_41981-1584.jpg?w=2000");
+    background-image: url("https://blog.alboompro.com/wp-content/uploads/2021/04/Quanto-vale-meu-Site.jpg");
     min-height: 695px;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,4 +8,7 @@
 
 .tam-f {
     font-size: larger;
+}
+.back {
+    background-color: rgb(75, 11, 135);
 }

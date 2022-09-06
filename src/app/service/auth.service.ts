@@ -4,6 +4,7 @@ import { Injectable } from '@angular/core';
 import { User } from '../model/user';
 import { UserLogin } from '../model/userLogin';
 import {Observable} from 'rxjs';
+import { environment } from 'src/environments/environment.prod';
 
 @Injectable({
   providedIn: 'root'
@@ -21,6 +22,14 @@ entrar (userLogin : UserLogin) : Observable<UserLogin>{
 
 cadastrar (user:User) : Observable <User>{
   return this.http.post<User>('http://localhost:8080/usuarios/cadastrar', user)
+}
+logado() {
+  let ok : boolean = false
+
+  if (environment.token != '') {
+    ok=true
+  }
+return ok 
 }
 
 }
