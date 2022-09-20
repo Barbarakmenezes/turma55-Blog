@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { environment } from 'src/environments/environment.prod';
+import { AppComponent } from '../app.component';
 import { UserLogin } from '../model/userLogin';
 import { AlertasService } from '../service/alertas.service';
 import { AuthService } from '../service/auth.service';
@@ -9,6 +10,7 @@ import { AuthService } from '../service/auth.service';
   selector: 'app-entrar',
   templateUrl: './entrar.component.html',
   styleUrls: ['./entrar.component.css']
+   
 })
 export class EntrarComponent implements OnInit {
    userLogin: UserLogin = new UserLogin()  
@@ -16,7 +18,8 @@ export class EntrarComponent implements OnInit {
   constructor(
     private auth: AuthService,
     private router:Router, 
-    private alertaService: AlertasService
+    private alertaService: AlertasService,
+    private appComponent : AppComponent
   ) { }
 
   ngOnInit() {
@@ -46,4 +49,7 @@ export class EntrarComponent implements OnInit {
  })
   }
 
+  
+
+  
 }

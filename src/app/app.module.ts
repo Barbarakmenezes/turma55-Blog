@@ -20,6 +20,9 @@ import { UserEditComponent } from './edit/user-edit/user-edit.component';
 import { AlertasComponent } from './alertas/alertas.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { OrderModule } from 'ngx-order-pipe';
+import { InicialComponent } from './inicial/inicial.component';
+
+
 
 
 @NgModule({
@@ -36,7 +39,11 @@ import { OrderModule } from 'ngx-order-pipe';
     PostagemEditComponent,
     PostagemDeleteComponent,
     UserEditComponent,
-    AlertasComponent
+    AlertasComponent,
+    InicialComponent
+    
+
+  
   ],
   imports: [
     BrowserModule,
