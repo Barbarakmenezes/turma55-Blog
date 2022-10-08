@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+
+
+.cad-text{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.gradient {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 130vh;
+width: 100vw; 
+    background: linear-gradient(45deg, #0E3EDA, #F473B9, #FFBDE6, #0E3EDA );
+   
+    background-size: 300% 300%;
+    animation: colors 15s forwards infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.color1 {
+    background-color: white;
+    opacity:0.9;
+    border-radius: 25px;
+}
+.form-box {
+    backdrop-filter: blur(40px);
+    padding: 0 70px;
+
+    border-radius: 20px;
+    margin: auto;
+}
+
+
+
+.mr-4 {
+    margin-right: 30px;
+}
+
+.color {
+    background-color: #E80F88;
+    
+}
+
+
+.color-2 {
+    background-color: #5b6c7e;
+}
+.back {
+    background-image: url('https://marquesfernandes.com/wp-content/uploads/2020/03/alexander-popov-iQqqo2zpmTI-unsplash-scaled.jpg');
+    
+}
