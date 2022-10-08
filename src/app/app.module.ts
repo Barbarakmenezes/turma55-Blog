@@ -25,6 +25,7 @@ import { InicialComponent } from './inicial/inicial.component';
 
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
