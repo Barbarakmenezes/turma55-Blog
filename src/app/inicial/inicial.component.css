@@ -1,6 +1,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
 
+.blackfont{
+    color:#000000;
+}
+.back{
+    background-color: #fff;
+}
+.card-img-top{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    border-radius: 50%;
+    margin: auto;
+  }
+.card-autoras{
+    height: 270px;
+    width: 270px;
+    border-radius: 20px;
+    margin-left: 170px;
+  }
 
 .font-geral{
     font-family: 'Poppins', sans-serif;
@@ -23,19 +42,18 @@
 }
 
 .ml{
+    margin-left: 250px;
+}
+.ml3{
+    margin-left: 200px;
+}
+.ml2{
     margin-left: 450px;
-
-}
-
-.ml1{
-    margin-left: 520px;
-
 }
 
 
-.img-border{
-    border-radius: 50%;
-}
+
+
 
 
 .jub-color{
@@ -44,7 +62,7 @@
 }
 
 .jub-color1{
-    background-image: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    background-image: url('https://scontent.frec5-1.fna.fbcdn.net/v/t39.30808-6/311294757_8067377986670125_8165084142310964375_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=KPBMr8mjrZsAX8MPFHu&_nc_ht=scontent.frec5-1.fna&oh=00_AT_rC5argua9nZQ_wWSERrItBLHynPjgq0sGNOhbuYS5WA&oe=63496FF7');
     background-position: 198%;
 }
 

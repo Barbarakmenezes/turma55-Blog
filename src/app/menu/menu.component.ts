@@ -10,6 +10,7 @@ import { environment } from 'src/environments/environment.prod';
 export class MenuComponent implements OnInit {
     
   nome= environment.nome
+  
   foto= environment.foto
   id=environment.id
 
@@ -18,9 +19,11 @@ export class MenuComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    window.scroll(0, 0)
   }
+  
   sair(){
-    this.router.navigate(['/entrar'])
+    this.router.navigate(['/inicial'])
     environment.token= ''
     environment.nome= ''
     environment.foto = ''

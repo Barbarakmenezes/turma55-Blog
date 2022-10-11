@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap');
+
+
+.font-geral{
+    font-family: 'Poppins', sans-serif;
+}
 .color {
-    background-color: rgb(75, 11, 135);
+    background-color: #FFD6EC;
 }
 .fs-54 {
     font-size: 54pt;
