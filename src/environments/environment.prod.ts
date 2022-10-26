@@ -4,6 +4,6 @@ export const environment = {
   nome: '',
   id: 0,
   foto: '', 
-  url: 'https://git.heroku.com/blogpessoalsspring.git',
+  url: 'https://blogpessoalsspring.herokuapp.com',
   tipo: ''
 };
